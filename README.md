@@ -13,6 +13,8 @@ X68000版 Thunder Blade に関する覚書
 * MIDI
 * SCSIハードディスクインストール
 
+<img src='images/thb1.jpeg'/>
+
 ---
 
 ## MIDI
