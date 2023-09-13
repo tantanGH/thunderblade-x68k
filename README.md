@@ -70,7 +70,7 @@ X68000版 Thunder Blade に関する覚書
 
         A:
 
-        ECHO Thunder Blade のマスターディスクAをドライブ0に入れてリターンキーを押してください
+        ECHO Thunder Blade のマスターディスクAをドライブ0に入れてください
         PAUSE
 
         THB.X -pa:;b:
