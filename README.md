@@ -73,7 +73,7 @@ X68000版 Thunder Blade に関する覚書
 10. 起動SCSIハードディスクドライブに \GAMES\THUNDERBLADE のディレクトリを作り、その中にDISKACディレクトリとDISKBディレクトリを作る。
 11. DISKACディレクトリに Thunder Blade DiskA と DiskC の内容を DISKCOPY.X を使ってすべてコピーする。
 12. DISKBディレクトリに Thunder Blade DiskB の内容を DISKCOPY.X を使ってすべてコピーする。
-13. 途中でマスターディスクを求められるので、マスターディスクと入れ替えることでゲームが起動する。DiskB,Cは使わない。
+13. 新しく作ったディスクで起動すると、途中でマスターディスクAを求められるので、マスターディスクAと入れ替えることでゲームが起動する。DiskB,Cは使わない。
 
 なお、Human68k 3.02ではサウンドドライバが動作しませんので起動できません。
 
