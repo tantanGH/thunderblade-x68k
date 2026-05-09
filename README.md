@@ -51,7 +51,7 @@ X68000版 Thunder Blade に関する覚書
         DEVICE  = MC.SYS
         SHELL   = COMMAND.X THB.BAT
 
-8. B:のルートにTHB.BATを以下の内容で作成する。
+8. B:のルートにTHB.BATを以下の内容で作成する。(FDX68などを使っていてFDドライブが4つある場合はC:をE:に置き換えてください)
 
         ECHO OFF
 
