@@ -43,12 +43,12 @@ X68000版 Thunder Blade に関する覚書
         SUBST.X
 
 6. A:を Thunder Blade DiskA に入れ替え、HUMAN.SYS以外のすべてのファイルをB:にコピーする。
-7. B:のCONFIG.SYSを以下のように変更する。
+7. B:のCONFIG.SYSを以下のように変更する。(MC.SYSは無効にしないとSTAGE2以降でメモリ不足のエラーが出る場合があります)
 
         FILES   = 15
         BUFFERS = 20
         DEVICE  = SCSIDRV.SYS /ID0
-        DEVICE  = MC.SYS
+        #DEVICE  = MC.SYS
         SHELL   = COMMAND.X THB.BAT
 
 8. B:のルートにTHB.BATを以下の内容で作成する。(FDX68などを使っていてFDドライブが4つある場合はC:をE:に置き換えてください)
